@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900; /* variable weight range */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../font/inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.bg-app{
+    background-color: #0e172a;
+}
+
+.bg-app-bar{
+    background-color: #1e293b;
+}
+
+.bg-app-card{
+    background-color: #27272a;    
+}
+.border-bottom-app-color {
+    border-bottom: 1px solid #475365;
+}
+.border-top-app-color {
+    border-top: 1px solid #475365;
+}
+
+.border-app-primary {
+    border: 1px solid #4896f0;
+}
+.bg-app-footer{
+    background-color: #2b3135;
+}
+
+.bg-app-card-header{
+    background-color: #334156;
+}
+.text-app-title{
+    color: #4896f0;
+}
+
+a.text-app-title:hover > div {
+    background-color: #4896f0 ;
+}
+a.text-app-title:hover i,.text-app-title:hover span {
+    color: white ;
+}
+a.text-app-title:hover small {
+    color:#2b3135 !important;
+}
+
+a.logout:hover > div {
+    background-color: #d84343 ;
+}
+a.logout:hover i,.logout:hover span {
+    color: white ;
+}
+a.logout:hover small {
+    color:#2b3135 !important;
+}
+
+.border-profile-card{
+    border:1px solid #303030;
+}
+
+.bg-warning-transparent{
+    background-color: rgba(255, 208, 0, 0.2);
+}
+
+.bg-danger-transparent{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#footer a:hover{
+    background-color:#2a3850 ;
+}
+
+.auction-card {
+    font-size: 0.9rem;
+}
+
+.auction-card .card-img-top {
+    object-fit: cover;
+    height: 180px;
+}
+
+.with-fixed-footer {
+    padding-bottom: 135px; 
+}
+
+nav{
+   width: 80%;
+   margin:0 auto;
+}
+
+.badge-size{
+    width: 5rem;
+    padding-top:6px;
+    padding-bottom:6px;    
+}
+
+.img-thumbnail-small{
+    width: 60px;
+    padding: 0.05rem;
+}
+.img-thumbnail-regular{
+    width: 100px;
+    padding: 0.05rem;
+}
+
+.img-open-item{
+    width: 120px;
+}
+
+.bg-icon-form{
+    background-color:#2b3035;
+}
+
+.mt-6{
+    margin-top: 4rem;
+}
+
+.stats-card-min-height{
+    min-height: 8rem;
+}
+
+
+/* manage_picture_profile */
+.form-control {
+    background: #212529;       /* noir */
+    color: #f8f9fa;
+}
+
+.form-control::placeholder{
+    color:#666666;
+}
+.form-control::file-selector-button {
+    background-color: #2b3035;
+    color:#f8f9fa;
+}
+
+.form-control:focus {
+    background: #212529; 
+    color: #f8f9fa;     
+}
+
+.form-control:focus::file-selector-button {
+    background-color: #2b3035;
+    color:#f8f9fa;
+}
+
+.form-control:hover::file-selector-button {
+    background-color: #2b3035 !important;
+    color:#f8f9fa !important;
+}
+.alert-warning{
+    background-color:#332701;
+    color:#ffda69;
+    border-color: #816103;
+}
+/* fin */
+
+
+/*Icons importé persos*/
+.icon-bi-auction:before {
+  font-family: 'bi-auction';  
+  content: "\e900";           
+}
+
+@font-face {
+  font-family: 'bi-auction';
+  src: url('../font/project-icons/bi-auction.woff') format('woff');
+}
+
+/*Add Edit Item*/
+
+.bg-blue-transparent {
+    background-color: rgba(17, 110, 240, 0.05);
+}
+.bg-green-transparent {
+    background-color: rgba(17, 240, 80, 0.05);
+}
+/*             */
+
+
+
+.zoom-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom-card:hover {
+    transform: scale(1.02);
+}
