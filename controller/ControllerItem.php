@@ -188,7 +188,7 @@ class ControllerItem extends Controller
             }           
         }
 
-        $reviews = Review::getReviewsByItem($item->getId());
+        //$reviews = Review::getReviewsByItem($item->getId());
         $old = ['rating' => '','comment' => ''];
         (new View("show_item"))->show(['vItemStatus' => $vItemStatus,
          'item' => $item, 
@@ -196,7 +196,7 @@ class ControllerItem extends Controller
           'errors' => $errors, 
           'back_url'=>$back_url,
           'from_url'=>$from_url,
-            'reviews' => $reviews,
+            //'reviews' => $reviews,
             'old' => $old
         ]);
     }
